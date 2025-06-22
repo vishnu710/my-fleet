@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from database import engine
-from models import vehicle
-from routers import vehicles
+from .database import engine
+from .models import vehicle
+from .routers import vehicles
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()

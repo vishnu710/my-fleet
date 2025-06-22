@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
-from sqlalchemy.orm import Session
-from database import SessionLocal
-from models.vehicle import Vehicle as VehicleModel
-from schemas.vehicle_schema import Vehicle as VehicleSchema
+from .sqlalchemy.orm import Session
+from .database import SessionLocal
+from .models.vehicle import Vehicle as VehicleModel
+from .schemas.vehicle_schema import Vehicle as VehicleSchema
 from typing import List
 
 router = APIRouter()
