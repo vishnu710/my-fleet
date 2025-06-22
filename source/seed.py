@@ -1,5 +1,5 @@
-from database import SessionLocal
-from models.vehicle import Vehicle
+from source.database import SessionLocal
+from source.models.vehicle import Vehicle
 
 db = SessionLocal()
 
